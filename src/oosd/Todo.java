@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lab2.oosd;
+package oosd;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,7 +14,7 @@ import javax.persistence.Id;
  *
  * @author alonch
  */
-@Entity(name = "todo")
+@Entity()
 public class Todo {
 
     @Id
