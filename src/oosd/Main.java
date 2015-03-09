@@ -32,7 +32,6 @@ public class Main {
         // create new todo
         em.getTransaction().begin();
         Todo todo = new Todo();
-        todo.setId(1l);
         todo.setSummary("updated");
         todo.setDescription("This is a test");
         em.persist(todo);
